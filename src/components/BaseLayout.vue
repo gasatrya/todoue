@@ -2,8 +2,20 @@
   <aside class="drawer drawer-mobile">
     <input type="checkbox" id="sidebar" class="drawer-toggle" />
     <div class="drawer-content flex flex-col items-center justify-center">
-      <label for="sidebar" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
-      Test
+      <div class="flex-none lg:hidden">
+        <label for="sidebar" class="btn btn-square btn-ghost">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block w-6 h-6 stroke-current"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </label>
+      </div>
+
+      <slot>Slot!</slot>
     </div>
     <div class="drawer-side">
       <label for="sidebar" class="drawer-overlay"></label>

@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import SidebarMenu from './components/SidebarMenu.vue'
-import TheTodo from './components/TheTodo.vue'
+// import BaseLayout from './components/BaseLayout.vue'
+import AllTasks from './components/AllTasks.vue'
 </script>
 
 <template>
-  <SidebarMenu />
-  <TheTodo />
+  <AllTasks />
 </template>
