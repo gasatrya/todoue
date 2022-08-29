@@ -14,9 +14,9 @@
           </svg>
         </label>
       </div>
-
       <slot>Slot!</slot>
     </div>
+
     <div class="drawer-side">
       <label for="sidebar" class="drawer-overlay"></label>
 
